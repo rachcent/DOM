@@ -1,16 +1,23 @@
 let imageBgs = [];
+let randomIndex;
+var button;
+let bg;
 
 function preload(){
-  for (let i = 0; i <=3;i++){
-    imageBgs[i] = loadImage(`assets/bg"_${i}.JPG`)
+  bg = ('assets/bg_1.jpg');
   }
-}
+
 
 function setup() {
+  bg = ('assets/bg_1.jpg');
   createCanvas(400, 400);
-  console.log(imageBgs);
+
 }
 
 function draw() {
-  background(220);
+  background(bg);
+
+
+
+
 }
